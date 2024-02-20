@@ -315,7 +315,7 @@ header>.button {
 
 .landing img {
     position: absolute;
-    width: 90%;
+    /* width: 90%; */
     border-radius: 20px;
     transform: translate(-50%, 0%);
     left: 50%;
@@ -334,6 +334,18 @@ header>.button {
     background-color: var(--dark-color);
     border-radius: 20px;
     padding: 20px;
+}
+
+@media(min-width:1200px) {
+    .logos {
+        margin-top: 400px;
+    }
+}
+
+@media(max-width:767px) {
+    .logos {
+        margin-top: 50px;
+    }
 }
 
 .logos p {
